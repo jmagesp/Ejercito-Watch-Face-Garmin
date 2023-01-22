@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\comod\Downloads\Copia\garmin\Relojes_Garmin\Mios\Empleos\Todos_Empleos_1\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchApp.mc" id="1" lineNum="6" parent="globals/AWatchIsAWatchApp" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchApp.mc" id="1" lineNum="7" parent="globals/AWatchIsAWatchApp" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchApp.mc" id="2" lineNum="10" parent="globals/AWatchIsAWatchApp" pc="268435479" symbol="onStart"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchApp.mc" id="3" lineNum="13" parent="globals/AWatchIsAWatchApp" pc="268435484" symbol="onStop"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchApp.mc" id="4" lineNum="16" parent="globals/AWatchIsAWatchApp" pc="268435489" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchApp.mc" id="4" lineNum="17" parent="globals/AWatchIsAWatchApp" pc="268435493" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchApp.mc" id="5" lineNum="4" parent="globals/AWatchIsAWatchApp" pc="268439343" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchApp.mc" id="5" lineNum="4" parent="globals/AWatchIsAWatchApp" pc="268439343" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="7" lineNum="11" parent="globals/AWatchIsAWatchView" pc="268435531" symbol="initialize"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="7" lineNum="12" parent="globals/AWatchIsAWatchView" pc="268435535" symbol="initialize"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="8" lineNum="14" parent="globals/AWatchIsAWatchView" pc="268435554" symbol="onLayout"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="8" lineNum="15" parent="globals/AWatchIsAWatchView" pc="268435558" symbol="onLayout"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="9" lineNum="17" parent="globals/AWatchIsAWatchView" pc="268435596" symbol="onShow"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="20" parent="globals/AWatchIsAWatchView" pc="268435601" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="21" parent="globals/AWatchIsAWatchView" pc="268435605" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="22" parent="globals/AWatchIsAWatchView" pc="268435649" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="24" parent="globals/AWatchIsAWatchView" pc="268435666" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="25" parent="globals/AWatchIsAWatchView" pc="268435683" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="26" parent="globals/AWatchIsAWatchView" pc="268435693" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="27" parent="globals/AWatchIsAWatchView" pc="268435717" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="29" parent="globals/AWatchIsAWatchView" pc="268435740" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="30" parent="globals/AWatchIsAWatchView" pc="268435852" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="32" parent="globals/AWatchIsAWatchView" pc="268435935" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="33" parent="globals/AWatchIsAWatchView" pc="268435955" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="10" lineNum="34" parent="globals/AWatchIsAWatchView" pc="268435969" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="11" lineNum="36" parent="globals/AWatchIsAWatchView" pc="268435984" symbol="onHide"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="12" lineNum="38" parent="globals/AWatchIsAWatchView" pc="268435989" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="13" lineNum="41" parent="globals/AWatchIsAWatchView" pc="268435994" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="44" parent="globals/AWatchIsAWatchView" pc="268435999" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="46" parent="globals/AWatchIsAWatchView" pc="268436003" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="47" parent="globals/AWatchIsAWatchView" pc="268436020" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="48" parent="globals/AWatchIsAWatchView" pc="268436030" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="49" parent="globals/AWatchIsAWatchView" pc="268436030" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="50" parent="globals/AWatchIsAWatchView" pc="268436041" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="51" parent="globals/AWatchIsAWatchView" pc="268436101" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="52" parent="globals/AWatchIsAWatchView" pc="268436138" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="54" parent="globals/AWatchIsAWatchView" pc="268436165" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="55" parent="globals/AWatchIsAWatchView" pc="268436176" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="56" parent="globals/AWatchIsAWatchView" pc="268436236" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="57" parent="globals/AWatchIsAWatchView" pc="268436273" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="59" parent="globals/AWatchIsAWatchView" pc="268436300" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="60" parent="globals/AWatchIsAWatchView" pc="268436311" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="61" parent="globals/AWatchIsAWatchView" pc="268436371" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="62" parent="globals/AWatchIsAWatchView" pc="268436408" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="64" parent="globals/AWatchIsAWatchView" pc="268436435" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="65" parent="globals/AWatchIsAWatchView" pc="268436446" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="66" parent="globals/AWatchIsAWatchView" pc="268436506" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="14" lineNum="67" parent="globals/AWatchIsAWatchView" pc="268436543" symbol="datos"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="70" parent="globals/AWatchIsAWatchView" pc="268436571" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="72" parent="globals/AWatchIsAWatchView" pc="268436575" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="74" parent="globals/AWatchIsAWatchView" pc="268436606" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="75" parent="globals/AWatchIsAWatchView" pc="268436606" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="76" parent="globals/AWatchIsAWatchView" pc="268436631" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="77" parent="globals/AWatchIsAWatchView" pc="268436668" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="79" parent="globals/AWatchIsAWatchView" pc="268436695" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="80" parent="globals/AWatchIsAWatchView" pc="268436706" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="81" parent="globals/AWatchIsAWatchView" pc="268436743" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="83" parent="globals/AWatchIsAWatchView" pc="268436770" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="84" parent="globals/AWatchIsAWatchView" pc="268436781" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="85" parent="globals/AWatchIsAWatchView" pc="268436818" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="87" parent="globals/AWatchIsAWatchView" pc="268436845" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="88" parent="globals/AWatchIsAWatchView" pc="268436856" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="89" parent="globals/AWatchIsAWatchView" pc="268436893" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="91" parent="globals/AWatchIsAWatchView" pc="268436920" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="92" parent="globals/AWatchIsAWatchView" pc="268436931" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="93" parent="globals/AWatchIsAWatchView" pc="268436968" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="95" parent="globals/AWatchIsAWatchView" pc="268436995" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="96" parent="globals/AWatchIsAWatchView" pc="268437006" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="97" parent="globals/AWatchIsAWatchView" pc="268437043" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="99" parent="globals/AWatchIsAWatchView" pc="268437070" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="100" parent="globals/AWatchIsAWatchView" pc="268437081" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="101" parent="globals/AWatchIsAWatchView" pc="268437118" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="103" parent="globals/AWatchIsAWatchView" pc="268437145" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="104" parent="globals/AWatchIsAWatchView" pc="268437156" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="105" parent="globals/AWatchIsAWatchView" pc="268437193" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="107" parent="globals/AWatchIsAWatchView" pc="268437220" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="108" parent="globals/AWatchIsAWatchView" pc="268437231" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="109" parent="globals/AWatchIsAWatchView" pc="268437268" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="111" parent="globals/AWatchIsAWatchView" pc="268437295" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="112" parent="globals/AWatchIsAWatchView" pc="268437306" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="113" parent="globals/AWatchIsAWatchView" pc="268437343" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="115" parent="globals/AWatchIsAWatchView" pc="268437370" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="116" parent="globals/AWatchIsAWatchView" pc="268437381" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="117" parent="globals/AWatchIsAWatchView" pc="268437418" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="119" parent="globals/AWatchIsAWatchView" pc="268437445" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="120" parent="globals/AWatchIsAWatchView" pc="268437456" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="121" parent="globals/AWatchIsAWatchView" pc="268437493" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="123" parent="globals/AWatchIsAWatchView" pc="268437520" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="124" parent="globals/AWatchIsAWatchView" pc="268437531" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="125" parent="globals/AWatchIsAWatchView" pc="268437568" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="127" parent="globals/AWatchIsAWatchView" pc="268437595" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="128" parent="globals/AWatchIsAWatchView" pc="268437606" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="129" parent="globals/AWatchIsAWatchView" pc="268437643" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="131" parent="globals/AWatchIsAWatchView" pc="268437670" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="132" parent="globals/AWatchIsAWatchView" pc="268437681" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="133" parent="globals/AWatchIsAWatchView" pc="268437718" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="135" parent="globals/AWatchIsAWatchView" pc="268437745" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="136" parent="globals/AWatchIsAWatchView" pc="268437756" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="137" parent="globals/AWatchIsAWatchView" pc="268437793" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="139" parent="globals/AWatchIsAWatchView" pc="268437820" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="140" parent="globals/AWatchIsAWatchView" pc="268437831" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="15" lineNum="141" parent="globals/AWatchIsAWatchView" pc="268437868" symbol="empleo"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="16" lineNum="9" parent="globals/AWatchIsAWatchView" pc="268439387" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\comod\\Downloads\\Copia\\garmin\\Relojes_Garmin\\Mios\\Empleos\\Todos_Empleos_1\\source\\AWatchIsAWatchView.mc" id="16" lineNum="9" parent="globals/AWatchIsAWatchView" pc="268439387" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="18" lineNum="2" parent="globals/Rez/Drawables" pc="268439381" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="19" lineNum="28" parent="globals/Rez/Fonts" pc="268439383" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="20" lineNum="30" parent="globals/Rez/JsonData" pc="268439385" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="21" lineNum="39" parent="globals/Rez/Layouts" pc="268437896" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="41" parent="globals/Rez/Layouts" pc="268437908" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="42" parent="globals/Rez/Layouts" pc="268438013" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="43" parent="globals/Rez/Layouts" pc="268438035" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="44" parent="globals/Rez/Layouts" pc="268438168" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="45" parent="globals/Rez/Layouts" pc="268438301" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="46" parent="globals/Rez/Layouts" pc="268438464" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="47" parent="globals/Rez/Layouts" pc="268438597" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="48" parent="globals/Rez/Layouts" pc="268438702" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="49" parent="globals/Rez/Layouts" pc="268438835" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="50" parent="globals/Rez/Layouts" pc="268438968" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="51" parent="globals/Rez/Layouts" pc="268439101" symbol="WatchFace"/>
+        <entry filename="Rez" id="21" lineNum="53" parent="globals/Rez/Layouts" pc="268439234" symbol="WatchFace"/>
+        <entry filename="Rez" id="22" lineNum="32" parent="globals/Rez/Layouts" pc="268439384" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="23" lineNum="58" parent="globals/Rez/Menus" pc="268439382" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="24" lineNum="60" parent="globals/Rez/Strings" pc="268439386" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="25" lineNum="1" parent="globals/Rez" pc="268439362" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="25" lineNum="1" parent="globals/Rez" pc="268439362" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="21" symbol="Sbtte"/>
+        <entry field="true" id="17" symbol="Cap"/>
+        <entry field="true" id="26" symbol="Cb1"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="29" symbol="BatVerde"/>
+        <entry field="true" id="32" symbol="BatRoja"/>
+        <entry id="38" method="true" symbol="datos"/>
+        <entry field="true" id="22" symbol="Bda"/>
+        <entry field="true" id="25" symbol="Cbmy"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="18" symbol="Tte"/>
+        <entry field="true" id="36" symbol="AppName"/>
+        <entry field="true" id="13" symbol="NoEmpleo"/>
+        <entry field="true" id="19" symbol="Alf"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="39" method="true" symbol="empleo"/>
+        <entry field="true" id="30" symbol="BatNaranja"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="12" module="true" symbol="Menus"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="28" symbol="Sdo"/>
+        <entry id="10" object="true" symbol="AWatchIsAWatchView"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="15" symbol="Tcol"/>
+        <entry field="true" id="33" symbol="fondo"/>
+        <entry field="true" id="20" symbol="Sbmy"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="34" symbol="id_pasos"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="27" symbol="Cb"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="37" symbol="SeccionEmpleo"/>
+        <entry field="true" id="35" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="9" object="true" symbol="AWatchIsAWatchApp"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="24" symbol="Sgto"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="23" symbol="Sgto1"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="31" symbol="BatAmarilla"/>
+        <entry id="11" module="true" symbol="Layouts"/>
+        <entry field="true" id="16" symbol="Cte"/>
+        <entry field="true" id="14" symbol="Cor"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435483" name="state" stackId="1" startPc="268435479"/>
+        <entry arg="true" endPc="268435488" name="state" stackId="1" startPc="268435484"/>
+        <entry arg="true" endPc="268435595" name="dc" stackId="1" startPc="268435554"/>
+        <entry endPc="268435982" name="steps" stackId="5" startPc="268435605"/>
+        <entry endPc="268435982" name="date" stackId="2" startPc="268435605"/>
+        <entry endPc="268435982" name="stepsView" stackId="6" startPc="268435605"/>
+        <entry endPc="268435982" name="activity" stackId="4" startPc="268435605"/>
+        <entry endPc="268435982" name="systemStats" stackId="3" startPc="268435605"/>
+        <entry arg="true" endPc="268435983" name="dc" stackId="1" startPc="268435601"/>
+        <entry endPc="268436569" name="battery" stackId="3" startPc="268436003"/>
+        <entry endPc="268436569" name="DibujoBateria" stackId="4" startPc="268436003"/>
+        <entry endPc="268436569" name="systemStats" stackId="2" startPc="268436003"/>
+        <entry arg="true" endPc="268436570" name="dc" stackId="1" startPc="268435999"/>
+        <entry endPc="268437894" name="DibujoEmpleo" stackId="3" startPc="268436575"/>
+        <entry endPc="268437894" name="SetEmpleo" stackId="2" startPc="268436575"/>
+        <entry arg="true" endPc="268437895" name="dc" stackId="1" startPc="268436571"/>
+        <entry endPc="268439340" name="rez_cmp_local_text_segundos" stackId="6" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_text_Hora" stackId="5" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_bitmap_id_pasos" stackId="7" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_text_Pasos" stackId="3" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_text_Date" stackId="4" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_bitmap_fondo" stackId="2" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_text_Battery4" stackId="11" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_text_Battery3" stackId="10" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_text_Battery2" stackId="9" startPc="268437908"/>
+        <entry endPc="268439340" name="rez_cmp_local_text_Battery1" stackId="8" startPc="268437908"/>
+        <entry arg="true" endPc="268439341" name="dc" stackId="1" startPc="268437896"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="NoEmpleo"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Cor"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Tcol"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Cte"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Cap"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Tte"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Alf"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Sbmy"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Sbtte"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Bda"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Sgto1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Sgto"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Cbmy"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Cb1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Cb"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Sdo"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatVerde"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatNaranja"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatAmarilla"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatRoja"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="fondo"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_pasos"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Sgto1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Tte"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Cor"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Sgto"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Sbtte"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Tcol"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NoEmpleo"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Cap"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Cb1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Cbmy"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Cte"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SeccionEmpleo"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Alf"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Sbmy"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Bda"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Cb"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Sdo"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/AWatchIsAWatchApp" offset="150" parentId="globals" symbolId="AWatchIsAWatchApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="221" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="300" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="515" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="546" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="577" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="616" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="647" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/AWatchIsAWatchView" offset="822" parentId="globals" symbolId="AWatchIsAWatchView" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="AWatchIsAWatchApp" startPc="268435456">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435483" name="onStart" parent="AWatchIsAWatchApp" startPc="268435479">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435488" name="onStop" parent="AWatchIsAWatchApp" startPc="268435484">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435530" name="getInitialView" parent="AWatchIsAWatchApp" startPc="268435489">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439361" name="&lt;init&gt;" parent="AWatchIsAWatchApp" startPc="268439343">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435553" name="initialize" parent="AWatchIsAWatchView" startPc="268435531">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435595" name="onLayout" parent="AWatchIsAWatchView" startPc="268435554">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435600" name="onShow" parent="AWatchIsAWatchView" startPc="268435596">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435983" name="onUpdate" parent="AWatchIsAWatchView" startPc="268435601">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435988" name="onHide" parent="AWatchIsAWatchView" startPc="268435984">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435993" name="onExitSleep" parent="AWatchIsAWatchView" startPc="268435989">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435998" name="onEnterSleep" parent="AWatchIsAWatchView" startPc="268435994">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436570" name="datos" parent="AWatchIsAWatchView" startPc="268435999">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437895" name="empleo" parent="AWatchIsAWatchView" startPc="268436571">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439405" name="&lt;init&gt;" parent="AWatchIsAWatchView" startPc="268439387">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439381" name="&lt;init&gt;" parent="Drawables" startPc="268439381">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439383" name="&lt;init&gt;" parent="Fonts" startPc="268439383">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439385" name="&lt;init&gt;" parent="JsonData" startPc="268439385">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439341" name="WatchFace" parent="Layouts" startPc="268437896">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439384" name="&lt;init&gt;" parent="Layouts" startPc="268439384">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439382" name="&lt;init&gt;" parent="Menus" startPc="268439382">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439386" name="&lt;init&gt;" parent="Strings" startPc="268439386">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439380" name="&lt;init&gt;" parent="Rez" startPc="268439362">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

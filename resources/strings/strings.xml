@@ -1,0 +1,24 @@
+<strings>
+    <string id="AppName">ET</string>
+    <string id="SeccionEmpleo">Selecciona Empleo:</string>
+    <string id="NoEmpleo">No quiero Empleo.</string>
+    <string id="Cor">Coronel</string>
+    <string id="Tcol">Teniente Coronel</string>
+    <string id="Cte">Comandante</string>
+    <string id="Cap">Capitán</string>
+    <string id="Tte">Teniente</string>
+    <string id="Alf">Alferez</string>
+    <string id="Sbmy">Suboficial Mayor</string>
+    <string id="Sbtte">Subteniente</string>
+    <string id="Bda">Brigada</string>
+    <string id="Sgto1">Sargento 1º</string>
+    <string id="Sgto">Sargento</string>
+    <string id="Cbmy">Cabo Mayor</string>
+    <string id="Cb1">Cabo 1º</string>
+    <string id="Cb">Cabo</string>
+    <string id="Sdo">Soldado</string>
+
+    <string id="LatidosTitulo">Tiene sensor corazón:</string>
+
+    <string id="NombreTitulo">Escriba apellido (15 carateres max.):</string>
+</strings>
