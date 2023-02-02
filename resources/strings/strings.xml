@@ -24,9 +24,9 @@
 
     <string id="ColorHoraTitle">Color de la Hora:</string>
     <string id="ColorVerde">Verde</string>
-    <string id="ColorGris">Gris</string>
     <string id="ColorBlanco">Blanco</string>
     <string id="ColorAzul">Azul</string>
     <string id="ColorRojo">Rojo</string>
     <string id="ColorAmarillo">Amarillo</string>
+
 </strings>

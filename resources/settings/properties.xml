@@ -24,5 +24,6 @@
     <property id="Nombre" type="string">Fernandez</property>
     <property id="NombreTitulo" type="string">NombreTitulo</property>
 
-    <property id="ColorHora" type="number">0x85F62C</property>
+    <property id="ColorHora" type="number">0x7070FF</property>
+
 </properties>

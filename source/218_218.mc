@@ -5,40 +5,53 @@ using Toybox.Time.Gregorian;
 using Toybox.Graphics;
 using Toybox.ActivityMonitor as AttMon;
 using Toybox.Application;
+using Toybox.Lang as Lang;
 
 function datos218_218(dc) {
         //pasos
         var DibujoPasos = Ui.loadResource(Rez.Drawables.pasos); 
         dc.drawBitmap(80, 20, DibujoPasos);
         //bateria
-        var systemStats = System.getSystemStats();
-        var battery = systemStats.battery;  
+        var bateria = System.getSystemStats().battery;
+        //dibujo bateria  
         var DibujoBateria;      
-        if (battery <= 100) { 
+        if (bateria <= 100) { 
             DibujoBateria = Ui.loadResource(Rez.Drawables.BatVerde); 
             dc.drawBitmap(90, 190, DibujoBateria); 
         }
-        if (battery <= 75) {  
+        if (bateria <= 75) {  
             DibujoBateria = Ui.loadResource(Rez.Drawables.BatNaranja); 
             dc.drawBitmap(90, 190, DibujoBateria);
         }
-        if (battery <= 50) { 
+        if (bateria <= 50) { 
             DibujoBateria = Ui.loadResource(Rez.Drawables.BatNaranja2); 
             dc.drawBitmap(90, 190, DibujoBateria); 
         }
-        if (battery <= 25) { 
+        if (bateria <= 25) { 
             DibujoBateria = Ui.loadResource(Rez.Drawables.BatAmarilla); 
             dc.drawBitmap(90, 190, DibujoBateria); 
         }
-        if (battery <= 15) { 
+        if (bateria <= 15) { 
             DibujoBateria = Ui.loadResource(Rez.Drawables.BatRoja); 
             dc.drawBitmap(90, 190, DibujoBateria); 
         }
+        //porcentaje bateria
+        var myBateria;
+        var bateriaFont = Ui.loadResource(Rez.Fonts.bateriaFont);
+        myBateria = new Ui.Text({
+            :text=>bateria.format("%d"),
+            :color=>Graphics.COLOR_WHITE,
+            :font=>bateriaFont,
+            :justification=>Graphics.TEXT_JUSTIFY_CENTER,
+            :locX =>105,
+            :locY=>190
+        });
+        myBateria.draw(dc);
     }
     function empleo218_218(dc) {        
         //Seleccion empleo
         var SetEmpleo = Application.getApp().getProperty("Empleos"); 
-        //var SetEmpleo = 15;
+        //var SetEmpleo = 7;
         var DibujoEmpleo;
         if (SetEmpleo < 0 || SetEmpleo > 15){
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.NoEmpleo); //null + error controlado
@@ -54,7 +67,7 @@ function datos218_218(dc) {
         }
         if (SetEmpleo == 2) { 
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Tcol); //teniente coronel +
-            dc.drawBitmap(50, 155, DibujoEmpleo);
+            dc.drawBitmap(40, 155, DibujoEmpleo);
         } 
         if (SetEmpleo == 3) {
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Cte); //comandante +
@@ -66,7 +79,7 @@ function datos218_218(dc) {
         } 
         if (SetEmpleo == 5) {
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Tte); //teniente +
-            dc.drawBitmap(50, 150, DibujoEmpleo);
+            dc.drawBitmap(40, 150, DibujoEmpleo);
         }
         if (SetEmpleo == 6) { 
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Alf); //alferez *
@@ -74,39 +87,39 @@ function datos218_218(dc) {
         } 
         if (SetEmpleo == 7) {
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Sbmy); //sbmy +
-            dc.drawBitmap(50, 140, DibujoEmpleo);
+            dc.drawBitmap(40, 145, DibujoEmpleo);
         }
         if (SetEmpleo == 8) { 
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Sbtte); // sbtte +
-            dc.drawBitmap(50, 140, DibujoEmpleo);
+            dc.drawBitmap(40, 140, DibujoEmpleo);
         } 
         if (SetEmpleo == 9) {
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Bda); //bda +
-            dc.drawBitmap(50, 140, DibujoEmpleo);
+            dc.drawBitmap(50, 150, DibujoEmpleo);
         }
         if (SetEmpleo == 10) { 
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Sgto1); //sgto1 +
-            dc.drawBitmap(50, 140, DibujoEmpleo);
+            dc.drawBitmap(40, 140, DibujoEmpleo);
         } 
         if (SetEmpleo == 11) {
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Sgto); //sgto +
-            dc.drawBitmap(50, 150, DibujoEmpleo);
+            dc.drawBitmap(40, 155, DibujoEmpleo);
         }
         if (SetEmpleo == 12) { 
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Cbmy); //cbmy +
-            dc.drawBitmap(50, 150, DibujoEmpleo);
+            dc.drawBitmap(40, 150, DibujoEmpleo);
         } 
         if (SetEmpleo == 13) {
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Cb1); //cb1 +
-            dc.drawBitmap(50, 160, DibujoEmpleo);
+            dc.drawBitmap(40, 160, DibujoEmpleo);
         }
         if (SetEmpleo == 14) { 
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Cb); //cb +
-            dc.drawBitmap(50, 150, DibujoEmpleo);
+            dc.drawBitmap(40, 150, DibujoEmpleo);
         } 
         if (SetEmpleo == 15) {
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Sdo); //sdo +
-            dc.drawBitmap(50, 160, DibujoEmpleo);
+            dc.drawBitmap(40, 160, DibujoEmpleo);
         }
     }
     function texto218_218(dc) {    
@@ -122,4 +135,28 @@ function datos218_218(dc) {
             :locY=>150
         });
         myText.draw(dc);
+    }
+    function Reloj218_218(dc)
+    {
+        var ancho1  = (dc.getWidth()/2);
+        var alto1  = (dc.getHeight()/2)-55;
+        var reloj = System.getClockTime();
+        var numerosFont =  Ui.loadResource(Rez.Fonts.numerosFont);
+        var color = (Application.getApp().getProperty("ColorHora") as Number);    
+        dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(ancho1, alto1, numerosFont, Lang.format("$1$:$2$", [reloj.hour.format("%02d"),reloj.min.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER);
+    }
+    function dibujoCorazon218_218(dc)
+    {
+        var SensorLatidos = Application.getApp().getProperty("SensorLatidos");
+        var corazonFont = null;
+        //var SensorLatidos = true;
+        if (SensorLatidos == true) {        
+            corazonFont =  Ui.loadResource(Rez.Fonts.corazon60Font);        
+            dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(120, 18, corazonFont, "y", Graphics.TEXT_JUSTIFY_LEFT); //la y - codigo ascii de fnt
+        } 
+        if (SensorLatidos == false) {
+            corazonFont = null;
+        }
     }

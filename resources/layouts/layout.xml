@@ -2,9 +2,6 @@
     <bitmap id="fondo" x="45%"  y="14%" filename="../drawables/fondoR.png" scaleY="70%" scaleRelativeTo="screen"></bitmap>   
     <label id="Pasos" x="center" y="20"     font="Graphics.FONT_XTINY"    color="Graphics.COLOR_WHITE"    justification="Graphics.TEXT_JUSTIFY_LEFT" />
     <label id="Date"   x="30%" y="21%"    font="Graphics.FONT_SMALL"   color="Graphics.COLOR_ORANGE"    justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="Hora" x="center" y="center" font="Graphics.FONT_NUMBER_THAI_HOT" color="Graphics.COLOR_WHITE"    justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="segundos" x="93%" y="35%" font="Graphics.FONT_SMALL" color="Graphics.COLOR_WHITE"    justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="esfera"   x="center" y="center"    font="Graphics.FONT_XTINY"   color="Graphics.COLOR_RED"      justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="latidos"   x="60%" y="19%"    font="Graphics.FONT_XTINY"   color="Graphics.COLOR_YELLOW"      justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="calorias"   x="60%" y="19%"    font="Graphics.FONT_XTINY"   color="Graphics.COLOR_YELLOW"      justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="latidos"   x="63%" y="19%"    font="Graphics.FONT_XTINY"   color="Graphics.COLOR_YELLOW"      justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="distancia"   x="60%" y="19%"    font="Graphics.FONT_XTINY"   color="Graphics.COLOR_YELLOW"      justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>
