@@ -7,14 +7,11 @@ class EjercitoApp extends Application.AppBase {
         AppBase.initialize();
     }
     
-    function onStart(state) {
-    }
+    function onStart(state) { }
 
-    function onStop(state) {
-    }
+    function onStop(state) { }
 
     function getInitialView() {
         return [ new EjercitoView() ];
     }
-
 }

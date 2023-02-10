@@ -18,11 +18,18 @@
     <string id="Cb">Cabo</string>
     <string id="Sdo">Soldado</string>
 
-    <string id="LatidosTitulo">Tiene sensor corazón:</string>
-
     <string id="NombreTitulo">Escriba apellido (15 carateres max.):</string>
 
+    <string id="HorarioMilitar">Formato Militar horario 24 Horas:</string>
+
     <string id="ColorHoraTitle">Color de la Hora:</string>
+    <string id="ColorVerde">Verde</string>
+    <string id="ColorBlanco">Blanco</string>
+    <string id="ColorAzul">Azul</string>
+    <string id="ColorRojo">Rojo</string>
+    <string id="ColorAmarillo">Amarillo</string>
+
+    <string id="ColorMinutoTitle">Color de la Hora:</string>
     <string id="ColorVerde">Verde</string>
     <string id="ColorBlanco">Blanco</string>
     <string id="ColorAzul">Azul</string>

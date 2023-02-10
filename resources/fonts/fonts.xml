@@ -1,7 +1,6 @@
 <fonts>
    <font id="numerosFont" filename="custom.fnt" filter="0123456789:"/>
-   <font id="corazon60Font" filename="corazon60.fnt" />
-   <font id="corazon90Font" filename="corazon90.fnt" />
-   <font id="corazon120Font" filename="corazon120.fnt" />
+   <font id="IconosFont" filename="Icons.fnt" />
    <font id="bateriaFont" filename="bateriaFont.fnt" />
+   <font id="numeros" filename="numeros.fnt" />
 </fonts>

@@ -21,5 +21,4 @@
     <bitmap id="BatNaranja2" filename="/bateria/naranja_-50.png" dithering="none" />
     <bitmap id="BatAmarilla" filename="/bateria/casi_vacia_50.png" dithering="none" />
     <bitmap id="BatRoja" filename="/bateria/vacia_50.png" dithering="none" />
-    <bitmap id="pasos" filename="pasos2.png" dithering="none" />
 </drawables>

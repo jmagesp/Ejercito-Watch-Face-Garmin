@@ -1,7 +1,6 @@
-<layout id="WatchFace">
+<layout id="ejercitoLayout">
     <bitmap id="fondo" x="45%"  y="14%" filename="../drawables/fondoR.png" scaleY="70%" scaleRelativeTo="screen"></bitmap>   
-    <label id="Pasos" x="center" y="20"     font="Graphics.FONT_XTINY"    color="Graphics.COLOR_WHITE"    justification="Graphics.TEXT_JUSTIFY_LEFT" />
-    <label id="Date"   x="30%" y="21%"    font="Graphics.FONT_SMALL"   color="Graphics.COLOR_ORANGE"    justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="latidos"   x="63%" y="19%"    font="Graphics.FONT_XTINY"   color="Graphics.COLOR_YELLOW"      justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="distancia"   x="60%" y="19%"    font="Graphics.FONT_XTINY"   color="Graphics.COLOR_YELLOW"      justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="Date"   x="center" y="top"    font="Graphics.FONT_SMALL"   color="Graphics.COLOR_ORANGE"    justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <drawable id="corazon" class="corazon"/>
+    <drawable id="reloj" class="reloj"/>
 </layout>

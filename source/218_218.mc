@@ -8,9 +8,6 @@ using Toybox.Application;
 using Toybox.Lang as Lang;
 
 function datos218_218(dc) {
-        //pasos
-        var DibujoPasos = Ui.loadResource(Rez.Drawables.pasos); 
-        dc.drawBitmap(80, 20, DibujoPasos);
         //bateria
         var bateria = System.getSystemStats().battery;
         //dibujo bateria  
@@ -51,7 +48,7 @@ function datos218_218(dc) {
     function empleo218_218(dc) {        
         //Seleccion empleo
         var SetEmpleo = Application.getApp().getProperty("Empleos"); 
-        //var SetEmpleo = 7;
+        //var SetEmpleo = 2;
         var DibujoEmpleo;
         if (SetEmpleo < 0 || SetEmpleo > 15){
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.NoEmpleo); //null + error controlado
@@ -135,28 +132,4 @@ function datos218_218(dc) {
             :locY=>150
         });
         myText.draw(dc);
-    }
-    function Reloj218_218(dc)
-    {
-        var ancho1  = (dc.getWidth()/2);
-        var alto1  = (dc.getHeight()/2)-55;
-        var reloj = System.getClockTime();
-        var numerosFont =  Ui.loadResource(Rez.Fonts.numerosFont);
-        var color = (Application.getApp().getProperty("ColorHora") as Number);    
-        dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(ancho1, alto1, numerosFont, Lang.format("$1$:$2$", [reloj.hour.format("%02d"),reloj.min.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER);
-    }
-    function dibujoCorazon218_218(dc)
-    {
-        var SensorLatidos = Application.getApp().getProperty("SensorLatidos");
-        var corazonFont = null;
-        //var SensorLatidos = true;
-        if (SensorLatidos == true) {        
-            corazonFont =  Ui.loadResource(Rez.Fonts.corazon60Font);        
-            dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(120, 18, corazonFont, "y", Graphics.TEXT_JUSTIFY_LEFT); //la y - codigo ascii de fnt
-        } 
-        if (SensorLatidos == false) {
-            corazonFont = null;
-        }
     }

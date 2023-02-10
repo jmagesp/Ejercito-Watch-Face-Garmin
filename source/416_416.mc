@@ -8,9 +8,6 @@ using Toybox.Application;
 using Toybox.Lang as Lang;
 
 function datos416_416(dc) {
-        //pasos
-        var DibujoPasos = Ui.loadResource(Rez.Drawables.pasos); 
-        dc.drawBitmap(150, 25, DibujoPasos);
         //bateria
         var bateria = System.getSystemStats().battery;
         //dibujo bateria  
@@ -136,28 +133,4 @@ function datos416_416(dc) {
             :locY=>260
         });
         myText.draw(dc);
-    }
-    function Reloj416_416(dc)
-    {
-        var ancho1  = (dc.getWidth()/2);
-        var alto1  = (dc.getHeight()/2)-55;
-        var reloj = System.getClockTime();
-        var numerosFont =  Ui.loadResource(Rez.Fonts.numerosFont); 
-        var color = (Application.getApp().getProperty("ColorHora") as Number);    
-        dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(ancho1, alto1, numerosFont, Lang.format("$1$:$2$", [reloj.hour.format("%02d"),reloj.min.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER);
-    }
-    function dibujoCorazon416_416(dc)
-    {
-        var SensorLatidos = Application.getApp().getProperty("SensorLatidos");
-        var corazonFont = null;
-        //var SensorLatidos = true;
-        if (SensorLatidos == true) {        
-            corazonFont =  Ui.loadResource(Rez.Fonts.corazon120Font); 
-            dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(230, 30, corazonFont, "y", Graphics.TEXT_JUSTIFY_LEFT); //la y - codigo ascii de fnt
-        } 
-        if (SensorLatidos == false) {
-            corazonFont = null;
-        }
     }

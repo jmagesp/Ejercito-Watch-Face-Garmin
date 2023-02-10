@@ -18,12 +18,12 @@
     <property id="Cb" type="number">14</property> 
     <property id="Sdo" type="number">15</property>
 
-    <property id="SensorLatidos" type="boolean">true</property>
-    <property id="LatidosTitulo" type="boolean">true</property>
-
     <property id="Nombre" type="string">Fernandez</property>
     <property id="NombreTitulo" type="string">NombreTitulo</property>
 
+    <property id="HorarioMilitar" type="boolean">true</property>
+
     <property id="ColorHora" type="number">0x7070FF</property>
+    <property id="ColorMinuto" type="number">0x7070FF</property>
 
 </properties>
