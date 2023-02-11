@@ -7,44 +7,6 @@ using Toybox.ActivityMonitor as AttMon;
 using Toybox.Application;
 using Toybox.Lang as Lang;
 
-function datos280_280(dc) {
-        //bateria
-        var bateria = System.getSystemStats().battery;
-        //dibujo bateria
-        var DibujoBateria;      
-        if (bateria <= 100) { 
-            DibujoBateria = Ui.loadResource(Rez.Drawables.BatVerde); 
-            dc.drawBitmap(120, 228, DibujoBateria); 
-        }
-        if (bateria <= 75) {  
-            DibujoBateria = Ui.loadResource(Rez.Drawables.BatNaranja); 
-            dc.drawBitmap(120, 228, DibujoBateria);
-        }
-        if (bateria <= 50) { 
-            DibujoBateria = Ui.loadResource(Rez.Drawables.BatNaranja2); 
-            dc.drawBitmap(120, 228, DibujoBateria); 
-        }
-        if (bateria <= 25) { 
-            DibujoBateria = Ui.loadResource(Rez.Drawables.BatAmarilla); 
-            dc.drawBitmap(120, 228, DibujoBateria); 
-        }
-        if (bateria <= 15) { 
-            DibujoBateria = Ui.loadResource(Rez.Drawables.BatRoja); 
-            dc.drawBitmap(120, 228, DibujoBateria); 
-        }
-        //porcentaje bateria
-        var myBateria;
-        var bateriaFont = Ui.loadResource(Rez.Fonts.bateriaFont);
-        myBateria = new Ui.Text({
-            :text=>bateria.format("%d"),
-            :color=>Graphics.COLOR_WHITE,
-            :font=>bateriaFont,
-            :justification=>Graphics.TEXT_JUSTIFY_CENTER,
-            :locX =>135,
-            :locY=>228
-        });
-        myBateria.draw(dc);
-    }
 
     function empleo280_280(dc) {        
         //Seleccion empleo

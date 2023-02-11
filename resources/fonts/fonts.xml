@@ -1,6 +1,7 @@
 <fonts>
    <font id="numerosFont" filename="custom.fnt" filter="0123456789:"/>
    <font id="IconosFont" filename="Icons.fnt" />
-   <font id="bateriaFont" filename="bateriaFont.fnt" />
    <font id="numeros" filename="numeros.fnt" />
+   <font id="numeros2" filename="numeros2.fnt" />
+   <font id="QuanticoSmall" filename="QuanticoSmall.fnt" />
 </fonts>

@@ -53,7 +53,7 @@ class corazon extends WatchUi.Drawable {
 
     function draw(dc) {
         var x = dc.getWidth(); // ancho
-        var y = dc.getHeight() * .15; //alto
+        var y = dc.getHeight() * .2; //alto
 
         var hrText = textoLatidos();
         var hrIcon = "l";  //codigo ascii

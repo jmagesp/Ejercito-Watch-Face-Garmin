@@ -14,6 +14,7 @@ class reloj extends WatchUi.Drawable {
         var hours = time.hour;
         var minutes = time.min;
         var HoraMilitar = Application.getApp().getProperty("HorarioMilitar");
+        //HoraMilitar = false;
         if (HoraMilitar==false) {
             if (hours > 12) {
                 hours = hours - 12;

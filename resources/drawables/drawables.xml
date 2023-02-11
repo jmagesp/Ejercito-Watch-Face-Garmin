@@ -16,9 +16,4 @@
     <bitmap id="Cb1" filename="/empleos/Cb1.png" dithering="none" />
     <bitmap id="Cb" filename="/empleos/cb.png" dithering="none" />
     <bitmap id="Sdo" filename="/empleos/sdo.png" dithering="none" /> 
-    <bitmap id="BatVerde" filename="/bateria/llena_50.png" dithering="none" />
-    <bitmap id="BatNaranja" filename="/bateria/naranja_50.png" dithering="none" />
-    <bitmap id="BatNaranja2" filename="/bateria/naranja_-50.png" dithering="none" />
-    <bitmap id="BatAmarilla" filename="/bateria/casi_vacia_50.png" dithering="none" />
-    <bitmap id="BatRoja" filename="/bateria/vacia_50.png" dithering="none" />
 </drawables>

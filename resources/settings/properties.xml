@@ -23,7 +23,7 @@
 
     <property id="HorarioMilitar" type="boolean">true</property>
 
-    <property id="ColorHora" type="number">0x7070FF</property>
-    <property id="ColorMinuto" type="number">0x7070FF</property>
+    <property id="ColorHora" type="number">0xFF0000</property>
+    <property id="ColorMinuto" type="number">0xFFFFFF</property>
 
 </properties>

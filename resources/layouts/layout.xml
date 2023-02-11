@@ -1,6 +1,7 @@
 <layout id="ejercitoLayout">
-    <bitmap id="fondo" x="45%"  y="14%" filename="../drawables/fondoR.png" scaleY="70%" scaleRelativeTo="screen"></bitmap>   
-    <label id="Date"   x="center" y="top"    font="Graphics.FONT_SMALL"   color="Graphics.COLOR_ORANGE"    justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <bitmap id="fondo" x="45%"  y="14%" filename="../drawables/fondoR.png" scaleY="70%" scaleRelativeTo="screen"></bitmap>
     <drawable id="corazon" class="corazon"/>
     <drawable id="reloj" class="reloj"/>
+    <drawable id="bateria" class="bateria"/>
+    <drawable id="fecha" class="fecha"/>
 </layout>
