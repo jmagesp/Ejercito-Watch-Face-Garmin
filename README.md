@@ -5,4 +5,5 @@ Un saludo para todos.
 https://apps.garmin.com/en-US/apps/2c8b5f0d-d111-4c7c-9537-382c2fccf0bf
 
 
-![cm](https://user-images.githubusercontent.com/114816269/218137738-e891c024-1482-4125-a731-3543e1abccea.png)
+
+![cm](https://user-images.githubusercontent.com/114816269/218267267-0da37c37-228c-40e2-8fda-6c435217c947.png)
