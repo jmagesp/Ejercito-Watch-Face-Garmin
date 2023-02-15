@@ -5,9 +5,9 @@ using Toybox.WatchUi;
 
 class corazon extends WatchUi.Drawable {
     var iconoFont = WatchUi.loadResource(Rez.Fonts.IconosFont);
-    var textFont = WatchUi.loadResource(Rez.Fonts.numeros);
+    var textoFont = WatchUi.loadResource(Rez.Fonts.numeros);
 
-    var showCalories  = true;
+    var verCalorias  = true;
 
     function initialize(options) {
         Drawable.initialize(options);
@@ -44,11 +44,11 @@ class corazon extends WatchUi.Drawable {
 
     function textoCalorias() {
         var calories = ActivityMonitor.getInfo().calories;
-        var caloriesText = "--";
+        var caloriasTexto = "--";
         if (calories != null) {
-            caloriesText = calories.format("%d");
+            caloriasTexto = calories.format("%d");
         }
-        return caloriesText;
+        return caloriasTexto;
     }
 
     function draw(dc) {
@@ -57,19 +57,19 @@ class corazon extends WatchUi.Drawable {
 
         var hrText = textoLatidos();
         var hrIcon = "l";  //codigo ascii
-        var hrTextDimensions = dc.getTextDimensions(hrText, textFont);
+        var hrTextDimensions = dc.getTextDimensions(hrText, textoFont);
         var hrIconDimensions = dc.getTextDimensions(hrIcon, iconoFont);
 
         // Cada 5 segundos, cambia entre calorias y pasos
         var time = System.getClockTime();
         if (time.sec % 5 == 0) {
-            showCalories = !showCalories;
+            verCalorias = !verCalorias;
         }
         //icono codigo ascii cambio
-        var secondaryText = showCalories ? textoCalorias() : textoPasos();
-        var secondaryIcon = showCalories ? "X" : "Å";
+        var secondaryText = verCalorias ? textoCalorias() : textoPasos();
+        var secondaryIcon = verCalorias ? "X" : "Å";
         
-        var secondaryTextDimensions = dc.getTextDimensions(secondaryText, textFont);
+        var secondaryTextDimensions = dc.getTextDimensions(secondaryText, textoFont);
         var secondaryIconDimensions = dc.getTextDimensions(secondaryIcon, iconoFont);
 
         var width = hrIconDimensions[0] + hrTextDimensions[0] + secondaryIconDimensions[0] + secondaryTextDimensions[0] + 12;
@@ -80,7 +80,7 @@ class corazon extends WatchUi.Drawable {
 
         var hrTextStart = hrIconStart + hrIconDimensions[0] + 4; //espacios entre icono y texto
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(hrTextStart, y, textFont, hrText, Graphics.TEXT_JUSTIFY_LEFT);
+        dc.drawText(hrTextStart, y, textoFont, hrText, Graphics.TEXT_JUSTIFY_LEFT);
 
         var secondaryIconStart = hrTextStart + hrTextDimensions[0] + 4;//espacios entre icono y texto
         dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
@@ -88,6 +88,6 @@ class corazon extends WatchUi.Drawable {
 
         var secondaryTextStart = secondaryIconStart + secondaryIconDimensions[0] + 4; //espacios entre icono y texto
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(secondaryTextStart, y, textFont, secondaryText, Graphics.TEXT_JUSTIFY_LEFT);
+        dc.drawText(secondaryTextStart, y, textoFont, secondaryText, Graphics.TEXT_JUSTIFY_LEFT);
     }
 }

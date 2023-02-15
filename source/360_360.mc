@@ -1,16 +1,12 @@
 using Toybox.WatchUi as Ui;
 using Toybox.System;
-using Toybox.Time;
-using Toybox.Time.Gregorian;
 using Toybox.Graphics;
-using Toybox.ActivityMonitor as AttMon;
 using Toybox.Application;
-using Toybox.Lang as Lang;
 
     function empleo360_360(dc) {        
         //Seleccion empleo
         var SetEmpleo = Application.getApp().getProperty("Empleos"); 
-        //var SetEmpleo = 15;
+        //var SetEmpleo = 2;
         var DibujoEmpleo;
         if (SetEmpleo < 0 || SetEmpleo > 15){
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.NoEmpleo); //null + error controlado

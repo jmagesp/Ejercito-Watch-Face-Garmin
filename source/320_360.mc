@@ -1,12 +1,7 @@
 using Toybox.WatchUi as Ui;
 using Toybox.System;
-using Toybox.Time;
-using Toybox.Time.Gregorian;
 using Toybox.Graphics;
-using Toybox.ActivityMonitor as AttMon;
 using Toybox.Application;
-using Toybox.Lang as Lang;
-
 
     function empleo320_360(dc) {        
         //Seleccion empleo

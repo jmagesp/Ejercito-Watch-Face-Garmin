@@ -1,17 +1,12 @@
 using Toybox.WatchUi as Ui;
 using Toybox.System;
-using Toybox.Time;
-using Toybox.Time.Gregorian;
 using Toybox.Graphics;
-using Toybox.ActivityMonitor as AttMon;
 using Toybox.Application;
-using Toybox.Lang as Lang;
-
 
     function empleo240_240(dc) {        
         //Seleccion empleo
         var SetEmpleo = Application.getApp().getProperty("Empleos"); 
-        //var SetEmpleo = 12;
+        //var SetEmpleo = 8;
         var DibujoEmpleo;
         if (SetEmpleo < 0 || SetEmpleo > 15){
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.NoEmpleo); //null + error controlado
