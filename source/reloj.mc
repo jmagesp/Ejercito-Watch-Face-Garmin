@@ -31,7 +31,7 @@ class reloj extends WatchUi.Drawable {
         var puntosWidth = dc.getTextWidthInPixels(puntosTexto, font);
         var minutesWidth = dc.getTextWidthInPixels(minutosTexto, font);
         var totalWidth = hourDimensions[0] + puntosWidth + minutesWidth;    
-        var height = (dc.getHeight() - hourDimensions[1]) / 2;
+        var height = (dc.getHeight() - hourDimensions[1]) / 2.2;
         var hourStart = (dc.getWidth() - totalWidth) / 2;
         var inicioPuntos = hourStart + hourDimensions[0];
         var minutesStart = inicioPuntos + puntosWidth;
