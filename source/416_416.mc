@@ -6,9 +6,9 @@ using Toybox.Application;
     function empleo416_416(dc) {        
         //Seleccion empleo
         var SetEmpleo = Application.getApp().getProperty("Empleos"); 
-        //var SetEmpleo = 1;
+        //SetEmpleo = 15;
         var DibujoEmpleo;
-        if (SetEmpleo < 0 || SetEmpleo > 15){
+        if (SetEmpleo < 0 || SetEmpleo > 16){
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.NoEmpleo); //null + error controlado
             dc.drawBitmap(90, 270, DibujoEmpleo);
         }
@@ -71,8 +71,12 @@ using Toybox.Application;
         if (SetEmpleo == 14) { 
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Cb); //cb +
             dc.drawBitmap(90, 270, DibujoEmpleo);
-        } 
-        if (SetEmpleo == 15) {
+        }
+        if (SetEmpleo == 15) { 
+            DibujoEmpleo = Ui.loadResource(Rez.Drawables.Sdo1); //sdo1 +
+            dc.drawBitmap(90, 270, DibujoEmpleo);
+        }
+        if (SetEmpleo == 16) {
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.Sdo); //sdo +
             dc.drawBitmap(90, 290, DibujoEmpleo);
         }

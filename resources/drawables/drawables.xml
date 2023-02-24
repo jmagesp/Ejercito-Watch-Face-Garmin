@@ -15,5 +15,6 @@
     <bitmap id="Cbmy" filename="/empleos/Cbmy.png" dithering="none" />
     <bitmap id="Cb1" filename="/empleos/Cb1.png" dithering="none" />
     <bitmap id="Cb" filename="/empleos/cb.png" dithering="none" />
+    <bitmap id="Sdo1" filename="/empleos/sdo1.png" dithering="none" />
     <bitmap id="Sdo" filename="/empleos/sdo.png" dithering="none" /> 
 </drawables>

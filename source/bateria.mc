@@ -13,7 +13,7 @@ class bateria extends WatchUi.Drawable {
         var width = 32;
         var height = 20;
         var xStart = (dc.getWidth() - width) / 2;
-        var yStart = (dc.getHeight() - height);
+        var yStart = (dc.getHeight() - height) - 5;
         
         // Dibujo bateria
         dc.setPenWidth(1);

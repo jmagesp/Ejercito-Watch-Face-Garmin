@@ -1,5 +1,5 @@
 <properties>
-    <property id="Empleos" type="number">16</property>
+    <property id="Empleos" type="number">17</property>
     <property id="SeccionEmpleo" type="string"></property>
     <property id="NoEmpleo" type="number">0</property> 
     <property id="Cor" type="number">1</property> 
@@ -16,7 +16,8 @@
     <property id="Cbmy" type="number">12</property> 
     <property id="Cb1" type="number">13</property> 
     <property id="Cb" type="number">14</property> 
-    <property id="Sdo" type="number">15</property>
+    <property id="Sdo1" type="number">15</property>
+    <property id="Sdo" type="number">16</property>
 
     <property id="Nombre" type="string">Fernandez</property>
     <property id="NombreTitulo" type="string">NombreTitulo</property>

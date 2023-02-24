@@ -17,7 +17,8 @@
             <listEntry value="12">@Strings.Cbmy</listEntry>
             <listEntry value="13">@Strings.Cb1</listEntry>
             <listEntry value="14">@Strings.Cb</listEntry>
-            <listEntry value="15">@Strings.Sdo</listEntry>
+            <listEntry value="15">@Strings.Sdo1</listEntry>
+            <listEntry value="16">@Strings.Sdo</listEntry>
         </settingConfig>
     </setting>
 
