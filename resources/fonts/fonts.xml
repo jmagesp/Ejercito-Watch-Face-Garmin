@@ -4,4 +4,6 @@
    <font id="numeros" filename="numeros.fnt" />
    <font id="numeros2" filename="numeros2.fnt" />
    <font id="QuanticoSmall" filename="QuanticoSmall.fnt" />
+   <font id="numerosSec" filename="numerosSec.fnt" />
+   
 </fonts>

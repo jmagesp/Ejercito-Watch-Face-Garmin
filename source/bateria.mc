@@ -19,7 +19,6 @@ class bateria extends WatchUi.Drawable {
         dc.setPenWidth(1);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawRectangle(xStart, yStart, width, height);
-
         var xKnob = xStart + 32 + 1;
         dc.drawLine(xKnob, yStart + 4, xKnob, yStart + 12);
 

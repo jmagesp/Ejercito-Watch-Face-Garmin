@@ -37,4 +37,11 @@
     <string id="ColorRojo">Rojo</string>
     <string id="ColorAmarillo">Amarillo</string>
 
+    <string id="ColorSegundoTitle">Color de los segundos:</string>
+    <string id="ColorVerde">Verde</string>
+    <string id="ColorBlanco">Blanco</string>
+    <string id="ColorAzul">Azul</string>
+    <string id="ColorRojo">Rojo</string>
+    <string id="ColorAmarillo">Amarillo</string>
+
 </strings>

@@ -6,7 +6,7 @@ using Toybox.Application;
     function empleo320_360(dc) {        
         //Seleccion empleo
         var SetEmpleo = Application.getApp().getProperty("Empleos"); 
-        //SetEmpleo = 15;
+        // SetEmpleo = 9; //venus sq2
         var DibujoEmpleo;
         if (SetEmpleo < 0 || SetEmpleo > 16){
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.NoEmpleo); //null + error controlado

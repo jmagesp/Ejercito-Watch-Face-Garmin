@@ -13,26 +13,13 @@ class EjercitoView extends Ui.WatchFace {
     }
     function onShow() {  }
 
-    function onUpdate(dc) { 
+    function onUpdate(dc) {         
 
         View.onUpdate(dc);
-        //dibujamos circulo esfera
-        var screenAncho = dc.getWidth();
-        var screenAlto = dc.getHeight();
-        var centroX = screenAncho / 2;
-        var centroY = screenAlto / 2;
-        var color = dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-        //cambia calor cada 5 segundos
-        var time = System.getClockTime();
-        if (time.sec % 5 == 0) {
-            color;
-        }else {
-            color = dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-        }
-        dc.setPenWidth(2);
-        dc.drawCircle(centroX, centroY, centroX);
+
         //detecta tamaño esfera y dibuja empleo
-        esfera(dc);        
+        esfera(dc);
+  
     }
 
     function onHide() { }

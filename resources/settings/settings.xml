@@ -50,4 +50,14 @@
             </settingConfig>
     </setting>
 
+    <setting propertyKey="@Properties.ColorSegundo" title="@Strings.ColorSegundoTitle">
+            <settingConfig type="list">
+                <listEntry value="0x37CF07">@Strings.ColorVerde</listEntry>
+                <listEntry value="0x0000FF">@Strings.ColorAzul</listEntry>
+                <listEntry value="0xFF0000">@Strings.ColorRojo</listEntry>
+                <listEntry value="0xFFFFFF">@Strings.ColorBlanco</listEntry>
+                <listEntry value="0xF2F522">@Strings.ColorAmarillo</listEntry>
+            </settingConfig>
+    </setting>
+
 </settings>

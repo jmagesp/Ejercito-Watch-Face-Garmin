@@ -6,7 +6,7 @@ using Toybox.Application;
     function empleo280_280(dc) {        
         //Seleccion empleo
         var SetEmpleo = Application.getApp().getProperty("Empleos"); 
-        //SetEmpleo = 1; //descent mk2
+        //SetEmpleo = 4; //descent mk2
         var DibujoEmpleo;
         if (SetEmpleo < 0 || SetEmpleo > 16){
             DibujoEmpleo = Ui.loadResource(Rez.Drawables.NoEmpleo); //null + error controlado

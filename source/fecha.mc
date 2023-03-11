@@ -3,6 +3,8 @@ using Toybox.Lang;
 using Toybox.Time;
 using Toybox.WatchUi;
 using Toybox.Time.Gregorian as Date;
+using Toybox.Application;
+using Toybox.System;
 
 class fecha extends WatchUi.Drawable {
 

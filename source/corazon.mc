@@ -76,7 +76,7 @@ class corazon extends WatchUi.Drawable {
 
         var hrIconStart = (x - width) / 2.3; // ancho inicio icono corazon
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(hrIconStart, y, iconoFont, hrIcon, Graphics.TEXT_JUSTIFY_LEFT);
+        dc.drawText(hrIconStart, y, iconoFont, hrIcon, Graphics.TEXT_JUSTIFY_LEFT);        
 
         var hrTextStart = hrIconStart + hrIconDimensions[0] + 4; //espacios entre icono y texto
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -89,5 +89,18 @@ class corazon extends WatchUi.Drawable {
         var secondaryTextStart = secondaryIconStart + secondaryIconDimensions[0] + 4; //espacios entre icono y texto
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(secondaryTextStart, y, textoFont, secondaryText, Graphics.TEXT_JUSTIFY_LEFT);
+
+        //dibujo bandera lineal
+        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(3);
+        dc.drawLine(hrIconStart - 30, y + 35 ,hrIconStart + 20, y + 35); //x1 inicio, y1 inicio, x2 fin, y2 fin
+
+        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(3);
+        dc.drawLine(hrIconStart + 40, y + 35 ,hrIconStart + 90, y + 35); //x1 inicio, y1 inicio, x2 fin, y2 fin
+
+        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(3);
+        dc.drawLine(hrIconStart + 110, y + 35 ,hrIconStart + 160, y + 35); //x1 inicio, y1 inicio, x2 fin, y2 fin
     }
 }
