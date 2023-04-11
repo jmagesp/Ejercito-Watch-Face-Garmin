@@ -1,0 +1,53 @@
+<settings>
+
+    <setting propertyKey="@Properties.Empleos" title="@Strings.SeccionEmpleo">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.NoEmpleo</listEntry>
+        	<listEntry value="1">@Strings.Cor</listEntry>
+            <listEntry value="2">@Strings.Tcol</listEntry>
+            <listEntry value="3">@Strings.Cte</listEntry>
+            <listEntry value="4">@Strings.Cap</listEntry>
+            <listEntry value="5">@Strings.Tte</listEntry>
+            <listEntry value="6">@Strings.Alf</listEntry>
+            <listEntry value="7">@Strings.Sbmy</listEntry>
+            <listEntry value="8">@Strings.Sbtte</listEntry>
+            <listEntry value="9">@Strings.Bda</listEntry>
+            <listEntry value="10">@Strings.Sgto1</listEntry>
+            <listEntry value="11">@Strings.Sgto</listEntry>
+            <listEntry value="12">@Strings.Cbmy</listEntry>
+            <listEntry value="13">@Strings.Cb1</listEntry>
+            <listEntry value="14">@Strings.Cb</listEntry>
+            <listEntry value="15">@Strings.Sdo1</listEntry>
+            <listEntry value="16">@Strings.Sdo</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Nombre" title="@Strings.NombreTitulo">
+        <settingConfig type="alphaNumeric" required="false" maxLength="15"/>
+    </setting>
+
+    <setting propertyKey="@Properties.ColorHora" title="@Strings.ColorHoraTitle">
+            <settingConfig type="list">
+                <listEntry value="0x37CF07">@Strings.ColorVerde</listEntry>
+                <listEntry value="0x0000FF">@Strings.ColorAzul</listEntry>
+                <listEntry value="0xFF0000">@Strings.ColorRojo</listEntry>
+                <listEntry value="0xFFFFFF">@Strings.ColorBlanco</listEntry>
+                <listEntry value="0xF2F522">@Strings.ColorAmarillo</listEntry>
+            </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.ColorMinuto" title="@Strings.ColorMinutoTitle">
+            <settingConfig type="list">
+                <listEntry value="0x37CF07">@Strings.ColorVerde</listEntry>
+                <listEntry value="0x0000FF">@Strings.ColorAzul</listEntry>
+                <listEntry value="0xFF0000">@Strings.ColorRojo</listEntry>
+                <listEntry value="0xFFFFFF">@Strings.ColorBlanco</listEntry>
+                <listEntry value="0xF2F522">@Strings.ColorAmarillo</listEntry>
+            </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Fecha_Calorias" title="@Strings.Fecha_Calorias">
+		<settingConfig type="boolean"/>
+	</setting>
+
+</settings>

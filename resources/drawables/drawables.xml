@@ -1,0 +1,20 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="NoEmpleo" filename="/empleos/SinEm.png" dithering="none" />
+    <bitmap id="Cor" filename="/empleos/cor.png" dithering="none" />
+    <bitmap id="Tcol" filename="/empleos/tcol.png" dithering="none" />
+    <bitmap id="Cte" filename="/empleos/cte.png" dithering="none" />
+    <bitmap id="Cap" filename="/empleos/cap.png" dithering="none" />
+    <bitmap id="Tte" filename="/empleos/tte.png" dithering="none" />
+    <bitmap id="Alf" filename="/empleos/alf.png" dithering="none" />
+    <bitmap id="Sbmy" filename="/empleos/Sbmy.png" dithering="none" />
+    <bitmap id="Sbtte" filename="/empleos/sbtte.png" dithering="none" />
+    <bitmap id="Bda" filename="/empleos/bda.png" dithering="none" />
+    <bitmap id="Sgto1" filename="/empleos/sgto1.png" dithering="none" />
+    <bitmap id="Sgto" filename="/empleos/sgto.png" dithering="none" />
+    <bitmap id="Cbmy" filename="/empleos/Cbmy.png" dithering="none" />
+    <bitmap id="Cb1" filename="/empleos/Cb1.png" dithering="none" />
+    <bitmap id="Cb" filename="/empleos/cb.png" dithering="none" />
+    <bitmap id="Sdo1" filename="/empleos/sdo1.png" dithering="none" />
+    <bitmap id="Sdo" filename="/empleos/sdo.png" dithering="none" /> 
+</drawables>

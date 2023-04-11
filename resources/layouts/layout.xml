@@ -1,0 +1,6 @@
+<layout id="ejercitoLayout">   
+    <bitmap id="fondo" x="45%"  y="14%" filename="../drawables/fondoR.png" scaleY="70%" scaleRelativeTo="screen"></bitmap>
+    <drawable id="corazon" class="corazon"/>
+    <drawable id="reloj" class="reloj"/>
+    <drawable id="bateria" class="bateria"/>   
+</layout>

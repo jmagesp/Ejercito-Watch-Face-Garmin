@@ -1,0 +1,6 @@
+<fonts>
+   <font id="IconosFont" filename="Icons.fnt" />
+   <font id="numeros" filename="numeros.fnt" />
+   <font id="numeros2" filename="numeros2.fnt" />
+   <font id="QuanticoSmall" filename="QuanticoSmall.fnt" />
+</fonts>
