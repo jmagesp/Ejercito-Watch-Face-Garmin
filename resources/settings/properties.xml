@@ -1,5 +1,6 @@
 <properties>
-    <property id="Empleos" type="number">17</property>
+
+    <property id="Empleos" type="number">0</property>
     <property id="SeccionEmpleo" type="string"></property>
     <property id="NoEmpleo" type="number">0</property> 
     <property id="Cor" type="number">1</property> 
@@ -26,5 +27,7 @@
     <property id="ColorMinuto" type="number">0xFFFFFF</property>
 
     <property id="Fecha_Calorias" type="boolean">true</property>
+
+    <property id="HorarioMilitar" type="boolean">true</property>
 
 </properties>

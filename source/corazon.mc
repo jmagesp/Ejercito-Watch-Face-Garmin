@@ -111,7 +111,6 @@ class corazon extends WatchUi.Drawable {
             var caloriasTexto = textoCalorias();
             var caloriasIcono = "X";      
             
-            var caloriasTextDimensions = dc.getTextDimensions(caloriasTexto, textoFont);
             var caloriasIconDimensions = dc.getTextDimensions(caloriasIcono, iconoFont);     
             var xCalorias = dc.getWidth() / 2.7; // ancho
             var yCalorias = dc.getHeight() * .05; //alto   

@@ -1,5 +1,5 @@
 <settings>
-
+    
     <setting propertyKey="@Properties.Empleos" title="@Strings.SeccionEmpleo">
         <settingConfig type="list">
             <listEntry value="0">@Strings.NoEmpleo</listEntry>
@@ -47,6 +47,10 @@
     </setting>
 
     <setting propertyKey="@Properties.Fecha_Calorias" title="@Strings.Fecha_Calorias">
+		<settingConfig type="boolean"/>
+	</setting>
+
+    <setting propertyKey="@Properties.HorarioMilitar" title="@Strings.HorarioMilitar">
 		<settingConfig type="boolean"/>
 	</setting>
 

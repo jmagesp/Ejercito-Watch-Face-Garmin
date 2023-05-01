@@ -1,25 +1,25 @@
-using Toybox.WatchUi as Ui;
-using Toybox.System;
-using Toybox.Graphics;
-using Toybox.Application;
+import Toybox.WatchUi;
+import Toybox.System;
+import Toybox.Graphics;
+import Toybox.Application;
+import Toybox.Lang;
 
-class EjercitoView extends Ui.WatchFace {
+class EjercitoView extends WatchUi.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
     }
-    function onLayout(dc) {
-        setLayout(Rez.Layouts.ejercitoLayout(dc));
+    function onLayout( dc as Dc ) as Void  {
+        setLayout(Rez.Layouts.ejercitoTierra(dc));
     }
     function onShow() {  }
 
-    function onUpdate(dc) { 
+    function onUpdate(dc) {         
 
         View.onUpdate(dc);        
 
         //detecta tamaño esfera y dibuja empleo
-        esfera(dc);
-  
+        esfera(dc);  
     }
 
     function onHide() { }
@@ -72,6 +72,10 @@ class EjercitoView extends Ui.WatchFace {
         if (ancho == 208 && alto == 208){            
             empleo208_208(dc); 
             texto208_208(dc);
-        }        
+        }
+        if (ancho == 454 && alto == 454){            
+            empleo454_454(dc); 
+            texto454_454(dc);
+        }
     }
 }

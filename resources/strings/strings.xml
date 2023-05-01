@@ -1,5 +1,6 @@
 <strings>
     <string id="AppName">Ejército de Tierra</string>
+
     <string id="SeccionEmpleo">Selecciona Empleo:</string>
     <string id="NoEmpleo">No quiero Empleo.</string>
     <string id="Cor">Coronel</string>
@@ -36,5 +37,7 @@
     <string id="ColorAmarillo">Amarillo</string>
 
     <string id="Fecha_Calorias">¿Con calorias en lugar de fecha?</string>
+
+    <string id="HorarioMilitar">Formato Militar horario 24 Horas:</string>
 
 </strings>
