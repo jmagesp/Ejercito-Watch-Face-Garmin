@@ -15,7 +15,7 @@ class corazon extends WatchUi.Drawable {
 
     function textoLatidos() {
         var SensorLatidos = Application.getApp().getProperty("SensorLatidos");
-        var heartRate = Activity.Info.currentHeartRate;
+        var heartRate = Activity.getActivityInfo().currentHeartRate;  //api 6.2
         var heartRateText = "--";
 
         if (heartRate != null) {

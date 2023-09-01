@@ -16,8 +16,7 @@ class EjercitoView extends WatchUi.WatchFace {
 
     function onUpdate(dc) {         
 
-        View.onUpdate(dc);        
-
+        View.onUpdate(dc);
         //detecta tamaño esfera y dibuja empleo
         esfera(dc);  
     }
